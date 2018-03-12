@@ -11,7 +11,17 @@ Echo service used for simple http testing.
 ./gradlew assemble
 ```
 - Start Spring application
-- Target echo call (GET):
+- Target echo call for GET:
 ```
 /echo/{message}
+```
+or
+```
+/echo
+```
+for POST, PUT amd DELETE. Payload:
+```json
+{
+  "message": "message content ..."
+}
 ```
