@@ -19,7 +19,7 @@ or
 ```
 /echo
 ```
-for POST, PUT amd DELETE. Payload:
+for POST, PUT and DELETE. Payload:
 ```json
 {
   "message": "message content ..."
