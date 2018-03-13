@@ -1,0 +1,19 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
