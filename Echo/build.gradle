@@ -21,8 +21,8 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-group = 'com.journaler'
-version = '0.0.3-SNAPSHOT'
+group = 'net.milosvasic.tools'
+version = '0.0.1'
 sourceCompatibility = 1.8
 
 compileKotlin {
